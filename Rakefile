@@ -161,3 +161,120 @@ task :generate_derivatives, [:thumbs_size, :small_size, :density, :missing, :com
   end
   puts "\e[32mSee '#{list_name}' for list of objects and derivatives created.\e[0m"
 end
+
+###############################################################################
+# TASK: generate_manifests
+###############################################################################
+
+desc "Generate IIIF manifest files from collection objects"
+task :generate_manifests do
+
+  # Load _config.yml file
+  config = YAML.load_file('_config.yml')
+
+  # Define the base URL
+  base_url = config['baseurl'] || ''
+
+  # Get metadata csv value
+  csv_file_path = "_data/#{config['metadata']}.csv"
+  raise "File #{csv_file_path} does not exist" unless File.exist?(csv_file_path)
+
+  # Create 'iiif' directory within the 'objects' directory
+  iiif_directory = File.join('objects', 'iiif')
+  FileUtils.mkdir_p(iiif_directory) unless File.directory?(iiif_directory)
+
+  # Initialize a hash to store parent-child relationships and standalone objects
+  objects = {}
+  CSV.foreach(csv_file_path, headers: true) do |row|
+    if row['parentid'].to_s.strip.empty?
+      # It's either a standalone object or a parent
+      objects[row['objectid']] ||= {row: row, children: []}
+    else
+      # It's a child object
+      objects[row['parentid']] ||= {row: nil, children: []}
+      objects[row['parentid']][:children] << row
+    end
+  end
+  
+  # Generate manifests for parents and standalone objects only
+  objects.each do |objectid, data|
+    next if data[:row].nil?  # Skip if the object is a child
+
+    parent_row = data[:row]
+    children = data[:children]
+
+    # Define manifest structure
+    manifest = {
+      "@context": "http://iiif.io/api/presentation/3/context.json",
+      "@id": "#{base_url}/iiif/#{parent_row['objectid']}/manifest.json",
+      "@type": "sc:Manifest",
+      "label": {
+        "en": [parent_row['title']]
+      },
+      "attribution": parent_row['contributing_institution'],
+      "logo": "#{base_url}/assets/img/collectionbuilder-logo.png",
+      "sequences": [
+        {
+          "@type": "sc:Sequence",
+          "canvases": []
+        }
+      ]
+    }
+
+    # Add children as items if any, otherwise add self
+    items = children.any? ? children : [parent_row]
+    items.each do |row|
+      next unless row['object_location'] # Skip if no object_location
+      canvas = {
+        "@type": "sc:Canvas",
+        "id": "#{base_url}/iiif/#{parent_row['objectid']}/manifest.json",
+        "label": row['title'],
+        "thumbnail": [
+          {
+            "id": "#{base_url}#{row['image_thumb']}",
+            "type": "Image",
+            "format": "image/jpeg",
+            "width": 450,
+            "height": 450
+          }
+        ],
+        "images": [
+          {
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "#{base_url}/iiif/#{parent_row['objectid']}/manifest.json",
+            "resource": {
+              "@type": "dctypes:Image",
+              "@id": "#{base_url}#{row['image_access']}"
+            }
+          }
+        ]
+      }
+      # Add rendering section if object_ocr is present
+      if row['object_ocr'] && !row['object_ocr'].strip.empty?
+        rendering_section = {
+          "rendering": [
+            {
+              "@id": row['object_ocr'],
+              "format": "text/plain",
+              "label": "Raw OCR Data"
+            }
+          ]
+        }
+        canvas.merge!(rendering_section)
+      end
+      # Add canvas to the sequence array
+      manifest[:sequences][0][:canvases] << canvas
+    end
+
+    # Save manifest in the object's subdirectory
+    subdirectory_path = File.join(iiif_directory, parent_row['objectid'])
+    FileUtils.mkdir_p(subdirectory_path) unless File.directory?(subdirectory_path)
+    file_path = File.join(subdirectory_path, "manifest.json")
+    File.open(file_path, "w") do |file|
+      file.write(JSON.pretty_generate(manifest))
+    end
+  end
+
+  puts "IIIF manifest files created for parents and standalone objects"
+end
