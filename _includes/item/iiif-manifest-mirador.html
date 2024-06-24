@@ -8,28 +8,27 @@
 <!-- add Mirador assets from CDN -->
 <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
 <!-- add div for viewer -->
-<div id="mirador" style="width:1000px;height:550px;position:relative"></div>
-<script>
+<div id="mirador" style="width: 100%; height: 668px; position: relative;"></div>
+<script type="text/javascript">
     // initialize Mirador
-    var miradorInstance = Mirador.viewer({
-        id: "mirador",
-        selectedTheme: 'dark',
-        window: {
-            defaultView: 'individuals', 
-            sideBarOpen: false,
-            sideBarPanel: "canvas",
-            views: [
-            { key: "single", behaviors: ["individuals", "paged"] },
-            { key: "book", behaviors: ["individuals"] },
-            { key: "scroll", behaviors: ["continuous"] },
-            { key: "gallery" }
-            ]
-        },
-        windows: [
-            { manifestId: {{ page.objectid | prepend: "/objects/iiif/" | append: "/manifest.json" | relative_url | jsonify }} }
-        ],
-        catalog: [
-            { manifestId: {{ page.objectid | prepend: "/objects/iiif/" | append: "/manifest.json" | relative_url | jsonify }} }
-        ]
-    });
+    function initializeMiradorViewer() {
+        var mirador = Mirador.viewer({
+            "id": "mirador",
+            "manifests": {
+                {{ page.objectid | prepend: "/objects/iiif/" | append: "/manifest.json" | relative_url | jsonify }}: {
+                "provider": "Iowa State University"
+                }
+            },
+            "windows": [
+                {
+                "loadedManifest": {{ page.objectid | prepend: "/objects/iiif/" | append: "/manifest.json" | relative_url | jsonify }},
+                "allowClose": false
+                }
+            ],
+            "workspaceControlPanel": {
+                "enabled": false
+            }
+        });
+    }
+    initializeMiradorViewer();
 </script>
