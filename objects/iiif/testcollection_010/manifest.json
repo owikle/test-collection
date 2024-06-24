@@ -1,0 +1,44 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "@id": "/iiif/testcollection_010/manifest.json",
+  "@type": "sc:Manifest",
+  "label": {
+    "en": [
+      "Jack Trice"
+    ]
+  },
+  "attribution": "Iowa State University. Special Collections and University Archives",
+  "logo": "/assets/img/collectionbuilder-logo.png",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_010/manifest.json",
+          "label": "Jack Trice",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/21-07-a_trice_1578-01-02_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_010/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/21-07-a_trice_1578-01-02_ac.jpg"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

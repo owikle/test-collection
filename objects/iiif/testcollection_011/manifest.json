@@ -1,0 +1,2719 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "@id": "/iiif/testcollection_011/manifest.json",
+  "@type": "sc:Manifest",
+  "label": {
+    "en": [
+      "Record book of the Iowa Ornithologists' Association - IIIF Viewer"
+    ]
+  },
+  "attribution": "Iowa State University. Special Collections and University Archives",
+  "logo": "/assets/img/collectionbuilder-logo.png",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "1",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0001_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0001_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "2",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0002_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0002_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "3",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0003_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0003_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "4",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0004_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0004_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "5",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0005_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0005_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "6",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0006_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0006_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "7",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0007_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0007_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "8",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0008_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0008_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "9",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0009_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0009_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "10",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0010_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0010_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "11",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0011_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0011_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "12",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0012_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0012_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "13",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0013_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0013_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "14",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0014_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0014_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "15",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0015_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0015_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "16",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0016_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0016_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "17",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0017_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0017_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "18",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0018_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0018_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "19",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0019_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0019_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "20",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0020_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0020_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "21",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0021_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0021_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "22",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0022_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0022_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "23",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0023_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0023_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "24",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0024_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0024_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "25",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0025_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0025_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "26",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0026_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0026_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "27",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0027_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0027_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "28",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0028_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0028_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "29",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0029_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0029_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "30",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0030_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0030_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "31",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0031_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0031_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "32",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0032_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0032_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "33",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0033_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0033_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "34",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0034_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0034_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "35",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0035_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0035_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "36",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0036_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0036_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "37",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0037_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0037_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "38",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0038_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0038_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "39",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0039_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0039_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "40",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0040_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0040_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "41",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0041_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0041_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "42",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0042_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0042_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "43",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0043_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0043_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "44",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0044_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0044_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "45",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0045_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0045_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "46",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0046_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0046_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "47",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0047_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0047_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "48",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0048_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0048_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "49",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0049_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0049_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "50",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0050_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0050_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "51",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0051_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0051_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "52",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0052_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0052_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "53",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0053_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0053_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "54",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0054_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0054_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "55",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0055_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0055_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "56",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0056_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0056_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "57",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0057_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0057_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "58",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0058_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0058_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "59",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0059_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0059_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "60",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0060_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0060_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "61",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0061_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0061_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "62",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0062_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0062_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "63",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0063_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0063_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "64",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0064_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0064_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "65",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0065_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0065_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "66",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0066_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0066_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "67",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0067_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0067_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "68",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0068_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0068_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "69",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0069_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0069_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "70",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0070_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0070_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "71",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0071_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0071_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "72",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0072_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0072_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "73",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0073_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0073_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "74",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0074_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0074_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "75",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0075_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0075_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "76",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0076_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0076_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "77",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0077_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0077_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "78",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0078_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0078_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "79",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0079_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0079_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "80",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0080_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0080_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "81",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0081_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0081_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "82",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0082_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0082_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "83",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0083_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0083_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "84",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0084_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0084_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "85",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0085_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0085_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "86",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0086_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0086_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "87",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0087_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0087_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "88",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0088_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0088_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "89",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0089_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0089_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "90",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0090_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0090_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "91",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0091_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0091_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "92",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0092_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0092_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "93",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0093_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0093_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "94",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0094_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0094_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "95",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0095_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0095_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "96",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0096_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0096_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "97",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0097_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0097_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "98",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0098_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0098_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "99",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0099_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0099_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "100",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0100_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0100_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "101",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0101_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0101_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "102",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0102_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0102_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "103",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0103_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0103_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "104",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0104_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0104_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "105",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0105_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0105_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "106",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0106_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0106_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "107",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0107_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0107_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_011/manifest.json",
+          "label": "108",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/ms0581b001f001i0108_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_011/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/ms0581b001f001i0108_ac.jpg"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

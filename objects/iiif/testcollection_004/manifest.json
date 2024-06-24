@@ -1,0 +1,126 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "@id": "/iiif/testcollection_004/manifest.json",
+  "@type": "sc:Manifest",
+  "label": {
+    "en": [
+      "Cora Mae Trice Greene letter to David Lendt, August 3, 1988"
+    ]
+  },
+  "attribution": "Iowa State University. Special Collections and University Archives",
+  "logo": "/assets/img/collectionbuilder-logo.png",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_004/manifest.json",
+          "label": "Page 1",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/21-07-023_trice_01-06-02-01_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_004/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/21-07-023_trice_01-06-02-01_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_004/manifest.json",
+          "label": "Page 2",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/21-07-023_trice_01-06-02-02_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_004/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/21-07-023_trice_01-06-02-02_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_004/manifest.json",
+          "label": "Page 3",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/21-07-023_trice_01-06-02-03_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_004/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/21-07-023_trice_01-06-02-03_ac.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_004/manifest.json",
+          "label": "Cora Mae Trice Greene letter to David Lendt, August 24, 1988",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/21-07-023_trice_01-06-02-04_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_004/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/21-07-023_trice_01-06-02-04_ac.jpg"
+              }
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "/objects/ocr/cora-letter.txt",
+              "format": "text/plain",
+              "label": "Raw OCR Data"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

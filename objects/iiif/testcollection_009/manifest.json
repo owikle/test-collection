@@ -1,0 +1,44 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "@id": "/iiif/testcollection_009/manifest.json",
+  "@type": "sc:Manifest",
+  "label": {
+    "en": [
+      "Chester L. Brewer letter to Samuel W. Beyer regarding football game at University of Missouri, October 8, 1923"
+    ]
+  },
+  "attribution": "Iowa State University. Special Collections and University Archives",
+  "logo": "/assets/img/collectionbuilder-logo.png",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_009/manifest.json",
+          "label": "Chester L. Brewer letter to Samuel W. Beyer regarding football game at University of Missouri, October 8, 1923",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/21-07-023_trice_01-24-01_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_009/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/21-07-023_trice_01-24-01_ac.jpg"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

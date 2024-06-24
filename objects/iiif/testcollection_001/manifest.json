@@ -1,0 +1,83 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "@id": "/iiif/testcollection_001/manifest.json",
+  "@type": "sc:Manifest",
+  "label": {
+    "en": [
+      "Jack Trice \"Last Letter,\" October 5, 1923"
+    ]
+  },
+  "attribution": "Iowa State University. Special Collections and University Archives",
+  "logo": "/assets/img/collectionbuilder-logo.png",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_001/manifest.json",
+          "label": "Front",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/21-07-023_trice_01-08-01-01_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_001/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/21-07-023_trice_01-08-01-01_ac.jpg"
+              }
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "/objects/ocr/i-will-01.txt",
+              "format": "text/plain",
+              "label": "Raw OCR Data"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "id": "/iiif/testcollection_001/manifest.json",
+          "label": "Back",
+          "thumbnail": [
+            {
+              "id": "/objects/thumbs/21-07-023_trice_01-08-01-02_th.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 450,
+              "height": 450
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "/iiif/testcollection_001/manifest.json",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "/objects/access/21-07-023_trice_01-08-01-02_ac.jpg"
+              }
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "/objects/ocr/i-will-02.txt",
+              "format": "text/plain",
+              "label": "Raw OCR Data"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
