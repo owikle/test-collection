@@ -1,0 +1,56 @@
+{% comment %}
+
+    Bootstrap Modal, https://getbootstrap.com/docs/5.1/components/modal/
+
+    E.G. --> {% include feature/modal.html button="More Info" color="info" title="Information" text="Example text" %}
+
+    Options: 
+    - "button" = text of button to trigger modal
+    - "color" = color of modal button (primary, secondary, success, danger, warning, info, light, dark)
+    - "title" = header text for modal pop up
+    - "text" = body text for modal pop up, can use markdown formatting (tip: use a Liquid capture to add more complex content)
+
+{%- endcomment -%}
+<!-- Button trigger modal -->
+<div class="text-center mb-3">
+    <button type="button" class="btn btn-{{ include.color | default: 'primary' }}" data-bs-toggle="modal" data-bs-target="#{{ page.objectid | slugify }}Modal">Book View
+        <br>
+        <svg class="bi icon-sprite pt-2" role="img" aria-label="Open Book" style="width: 50px; height: 50px;">
+            <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-book"/>
+        </svg>
+    </button>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="{{ page.objectid | slugify }}Modal" tabindex="-1" role="dialog" aria-labelledby="{{ page.objectid | slugify }}ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-custom" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="{{ page.objectid | slugify }}ModalLabel">{{ page.title }}</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" >
+            {% if include.viewer == "uv" %}
+                {% include item/iiif-manifest-universal-viewer.html %}
+            {% elsif include.viewer == "mirador" %}
+                {% include item/iiif-manifest-mirador.html %}
+            {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const modalId = '{{ page.objectid | slugify }}Modal';
+        const exampleModal = document.getElementById(modalId);
+
+        exampleModal.addEventListener('shown.bs.modal', (event) => {
+            const viewerType = '{{ include.viewer }}';
+            if (viewerType === 'uv') {
+                initializeUniversalViewer();
+            } else if (viewerType === 'mirador') {
+                initializeMiradorViewer();
+            }
+        });
+    });
+</script>
