@@ -1,122 +1,99 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "@id": "/iiif/testcollection_004/manifest.json",
-  "@type": "sc:Manifest",
+  "id": "/test-collection/iiif/testcollection_004/manifest.json",
+  "type": "Manifest",
   "label": {
     "en": [
-      "Cora Mae Trice Greene letter to David Lendt, August 3, 1988"
+      "Jack Trice \"Last Letter,\" October 5, 1923 [MIRADOR]"
     ]
   },
-  "attribution": "Iowa State University. Special Collections and University Archives",
-  "logo": "/assets/img/collectionbuilder-logo.png",
-  "sequences": [
+  "thumbnail": [
     {
-      "@type": "sc:Sequence",
-      "canvases": [
+      "id": "/test-collection/objects/thumbs/21-07-023_trice_01-08-01-01_th.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "height": 681,
+      "width": 450
+    }
+  ],
+  "items": [
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_005",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "Front"
+        ]
+      },
+      "thumbnail": [
         {
-          "@type": "sc:Canvas",
-          "id": "/iiif/testcollection_004/manifest.json",
-          "label": "Page 1",
-          "thumbnail": [
+          "id": "/test-collection/objects/thumbs/21-07-023_trice_01-08-01-01_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_005",
+          "type": "AnnotationPage",
+          "items": [
             {
-              "id": "/objects/thumbs/21-07-023_trice_01-06-02-01_th.jpg",
-              "type": "Image",
-              "format": "image/jpeg",
-              "width": 450,
-              "height": 450
-            }
-          ],
-          "images": [
-            {
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "on": "/iiif/testcollection_004/manifest.json",
-              "resource": {
-                "@type": "dctypes:Image",
-                "@id": "/objects/access/21-07-023_trice_01-06-02-01_ac.jpg"
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_005",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_005",
+              "body": {
+                "id": "/test-collection/objects/access/21-07-023_trice_01-08-01-01_ac.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
               }
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_006",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "Back"
+        ]
+      },
+      "thumbnail": [
         {
-          "@type": "sc:Canvas",
-          "id": "/iiif/testcollection_004/manifest.json",
-          "label": "Page 2",
-          "thumbnail": [
-            {
-              "id": "/objects/thumbs/21-07-023_trice_01-06-02-02_th.jpg",
-              "type": "Image",
-              "format": "image/jpeg",
-              "width": 450,
-              "height": 450
-            }
-          ],
-          "images": [
-            {
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "on": "/iiif/testcollection_004/manifest.json",
-              "resource": {
-                "@type": "dctypes:Image",
-                "@id": "/objects/access/21-07-023_trice_01-06-02-02_ac.jpg"
-              }
-            }
-          ]
-        },
+          "id": "/test-collection/objects/thumbs/21-07-023_trice_01-08-01-02_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
         {
-          "@type": "sc:Canvas",
-          "id": "/iiif/testcollection_004/manifest.json",
-          "label": "Page 3",
-          "thumbnail": [
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_006",
+          "type": "AnnotationPage",
+          "items": [
             {
-              "id": "/objects/thumbs/21-07-023_trice_01-06-02-03_th.jpg",
-              "type": "Image",
-              "format": "image/jpeg",
-              "width": 450,
-              "height": 450
-            }
-          ],
-          "images": [
-            {
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "on": "/iiif/testcollection_004/manifest.json",
-              "resource": {
-                "@type": "dctypes:Image",
-                "@id": "/objects/access/21-07-023_trice_01-06-02-03_ac.jpg"
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_006",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_006",
+              "body": {
+                "id": "/test-collection/objects/access/21-07-023_trice_01-08-01-02_ac.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
               }
-            }
-          ]
-        },
-        {
-          "@type": "sc:Canvas",
-          "id": "/iiif/testcollection_004/manifest.json",
-          "label": "Cora Mae Trice Greene letter to David Lendt, August 24, 1988",
-          "thumbnail": [
-            {
-              "id": "/objects/thumbs/21-07-023_trice_01-06-02-04_th.jpg",
-              "type": "Image",
-              "format": "image/jpeg",
-              "width": 450,
-              "height": 450
-            }
-          ],
-          "images": [
-            {
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "on": "/iiif/testcollection_004/manifest.json",
-              "resource": {
-                "@type": "dctypes:Image",
-                "@id": "/objects/access/21-07-023_trice_01-06-02-04_ac.jpg"
-              }
-            }
-          ],
-          "rendering": [
-            {
-              "@id": "/objects/ocr/cora-letter.txt",
-              "format": "text/plain",
-              "label": "Raw OCR Data"
             }
           ]
         }

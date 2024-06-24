@@ -1,39 +1,57 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "@id": "/iiif/testcollection_010/manifest.json",
-  "@type": "sc:Manifest",
+  "id": "/test-collection/iiif/testcollection_010/manifest.json",
+  "type": "Manifest",
   "label": {
     "en": [
-      "Jack Trice"
+      "Aircraft (Integrated propellers on top) [UV]"
     ]
   },
-  "attribution": "Iowa State University. Special Collections and University Archives",
-  "logo": "/assets/img/collectionbuilder-logo.png",
-  "sequences": [
+  "thumbnail": [
     {
-      "@type": "sc:Sequence",
-      "canvases": [
+      "id": "/test-collection/objects/thumbs/0243_lippisch_cdoversized_14_th.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "height": 681,
+      "width": 450
+    }
+  ],
+  "items": [
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_010",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "Aircraft (Integrated propellers on top) [UV]"
+        ]
+      },
+      "thumbnail": [
         {
-          "@type": "sc:Canvas",
-          "id": "/iiif/testcollection_010/manifest.json",
-          "label": "Jack Trice",
-          "thumbnail": [
+          "id": "/test-collection/objects/thumbs/0243_lippisch_cdoversized_14_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_010",
+          "type": "AnnotationPage",
+          "items": [
             {
-              "id": "/objects/thumbs/21-07-a_trice_1578-01-02_th.jpg",
-              "type": "Image",
-              "format": "image/jpeg",
-              "width": 450,
-              "height": 450
-            }
-          ],
-          "images": [
-            {
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "on": "/iiif/testcollection_010/manifest.json",
-              "resource": {
-                "@type": "dctypes:Image",
-                "@id": "/objects/access/21-07-a_trice_1578-01-02_ac.jpg"
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_010",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_010",
+              "body": {
+                "id": "/test-collection/objects/access/0243_lippisch_cdoversized_14_ac.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
               }
             }
           ]

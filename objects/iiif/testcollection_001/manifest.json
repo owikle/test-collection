@@ -1,79 +1,99 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "@id": "/iiif/testcollection_001/manifest.json",
-  "@type": "sc:Manifest",
+  "id": "/test-collection/iiif/testcollection_001/manifest.json",
+  "type": "Manifest",
   "label": {
     "en": [
-      "Jack Trice \"Last Letter,\" October 5, 1923"
+      "Jack Trice \"Last Letter,\" October 5, 1923 [MULTIPLE]"
     ]
   },
-  "attribution": "Iowa State University. Special Collections and University Archives",
-  "logo": "/assets/img/collectionbuilder-logo.png",
-  "sequences": [
+  "thumbnail": [
     {
-      "@type": "sc:Sequence",
-      "canvases": [
+      "id": "/test-collection/objects/thumbs/21-07-023_trice_01-08-01-01_th.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "height": 681,
+      "width": 450
+    }
+  ],
+  "items": [
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_002",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "Front"
+        ]
+      },
+      "thumbnail": [
         {
-          "@type": "sc:Canvas",
-          "id": "/iiif/testcollection_001/manifest.json",
-          "label": "Front",
-          "thumbnail": [
+          "id": "/test-collection/objects/thumbs/21-07-023_trice_01-08-01-01_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_002",
+          "type": "AnnotationPage",
+          "items": [
             {
-              "id": "/objects/thumbs/21-07-023_trice_01-08-01-01_th.jpg",
-              "type": "Image",
-              "format": "image/jpeg",
-              "width": 450,
-              "height": 450
-            }
-          ],
-          "images": [
-            {
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "on": "/iiif/testcollection_001/manifest.json",
-              "resource": {
-                "@type": "dctypes:Image",
-                "@id": "/objects/access/21-07-023_trice_01-08-01-01_ac.jpg"
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_002",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_002",
+              "body": {
+                "id": "/test-collection/objects/access/21-07-023_trice_01-08-01-01_ac.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
               }
-            }
-          ],
-          "rendering": [
-            {
-              "@id": "/objects/ocr/i-will-01.txt",
-              "format": "text/plain",
-              "label": "Raw OCR Data"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_003",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "Back"
+        ]
+      },
+      "thumbnail": [
         {
-          "@type": "sc:Canvas",
-          "id": "/iiif/testcollection_001/manifest.json",
-          "label": "Back",
-          "thumbnail": [
+          "id": "/test-collection/objects/thumbs/21-07-023_trice_01-08-01-02_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_003",
+          "type": "AnnotationPage",
+          "items": [
             {
-              "id": "/objects/thumbs/21-07-023_trice_01-08-01-02_th.jpg",
-              "type": "Image",
-              "format": "image/jpeg",
-              "width": 450,
-              "height": 450
-            }
-          ],
-          "images": [
-            {
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "on": "/iiif/testcollection_001/manifest.json",
-              "resource": {
-                "@type": "dctypes:Image",
-                "@id": "/objects/access/21-07-023_trice_01-08-01-02_ac.jpg"
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_003",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_003",
+              "body": {
+                "id": "/test-collection/objects/access/21-07-023_trice_01-08-01-02_ac.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
               }
-            }
-          ],
-          "rendering": [
-            {
-              "@id": "/objects/ocr/i-will-02.txt",
-              "format": "text/plain",
-              "label": "Raw OCR Data"
             }
           ]
         }

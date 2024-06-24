@@ -1,0 +1,4449 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "/test-collection/iiif/testcollection_012/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Record book of the Iowa Ornithologists' Association [MODAL UV]"
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "/test-collection/objects/thumbs/ms0581b001f001i0001_th.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "height": 681,
+      "width": 450
+    }
+  ],
+  "items": [
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_013",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "1"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0001_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_013",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_013",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_013",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0001.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_014",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "2"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0002_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_014",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_014",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_014",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0002.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_015",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "3"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0003_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_015",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_015",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_015",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0003.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_016",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "4"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0004_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_016",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_016",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_016",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0004.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_017",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "5"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0005_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_017",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_017",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_017",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0005.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_018",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "6"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0006_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_018",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_018",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_018",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0006.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_019",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "7"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0007_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_019",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_019",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_019",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0007.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_020",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "8"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0008_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_020",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_020",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_020",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0008.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_021",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "9"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0009_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_021",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_021",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_021",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0009.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_022",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "10"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0010_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_022",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_022",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_022",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0010.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_023",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "11"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0011_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_023",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_023",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_023",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0011.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_024",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "12"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0012_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_024",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_024",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_024",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0012.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_025",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "13"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0013_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_025",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_025",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_025",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0013.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_026",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "14"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0014_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_026",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_026",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_026",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0014.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_027",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "15"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0015_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_027",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_027",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_027",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0015.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_028",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "16"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0016_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_028",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_028",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_028",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0016.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_029",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "17"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0017_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_029",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_029",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_029",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0017.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_030",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "18"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0018_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_030",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_030",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_030",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0018.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_031",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "19"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0019_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_031",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_031",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_031",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0019.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_032",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "20"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0020_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_032",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_032",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_032",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0020.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_033",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "21"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0021_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_033",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_033",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_033",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0021.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_034",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "22"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0022_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_034",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_034",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_034",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0022.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_035",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "23"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0023_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_035",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_035",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_035",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0023.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_036",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "24"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0024_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_036",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_036",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_036",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0024.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_037",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "25"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0025_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_037",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_037",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_037",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0025.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_038",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "26"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0026_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_038",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_038",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_038",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0026.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_039",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "27"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0027_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_039",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_039",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_039",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0027.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_040",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "28"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0028_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_040",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_040",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_040",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0028.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_041",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "29"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0029_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_041",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_041",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_041",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0029.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_042",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "30"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0030_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_042",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_042",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_042",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0030.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_043",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "31"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0031_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_043",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_043",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_043",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0031.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_044",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "32"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0032_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_044",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_044",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_044",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0032.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_045",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "33"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0033_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_045",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_045",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_045",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0033.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_046",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "34"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0034_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_046",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_046",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_046",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0034.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_047",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "35"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0035_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_047",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_047",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_047",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0035.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_048",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "36"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0036_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_048",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_048",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_048",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0036.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_049",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "37"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0037_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_049",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_049",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_049",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0037.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_050",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "38"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0038_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_050",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_050",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_050",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0038.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_051",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "39"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0039_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_051",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_051",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_051",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0039.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_052",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "40"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0040_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_052",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_052",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_052",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0040.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_053",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "41"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0041_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_053",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_053",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_053",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0041.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_054",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "42"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0042_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_054",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_054",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_054",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0042.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_055",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "43"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0043_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_055",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_055",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_055",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0043.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_056",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "44"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0044_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_056",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_056",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_056",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0044.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_057",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "45"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0045_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_057",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_057",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_057",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0045.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_058",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "46"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0046_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_058",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_058",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_058",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0046.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_059",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "47"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0047_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_059",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_059",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_059",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0047.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_060",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "48"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0048_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_060",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_060",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_060",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0048.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_061",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "49"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0049_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_061",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_061",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_061",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0049.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_062",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "50"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0050_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_062",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_062",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_062",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0050.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_063",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "51"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0051_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_063",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_063",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_063",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0051.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_064",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "52"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0052_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_064",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_064",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_064",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0052.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_065",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "53"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0053_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_065",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_065",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_065",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0053.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_066",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "54"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0054_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_066",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_066",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_066",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0054.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_067",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "55"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0055_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_067",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_067",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_067",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0055.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_068",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "56"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0056_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_068",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_068",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_068",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0056.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_069",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "57"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0057_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_069",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_069",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_069",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0057.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_070",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "58"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0058_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_070",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_070",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_070",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0058.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_071",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "59"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0059_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_071",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_071",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_071",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0059.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_072",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "60"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0060_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_072",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_072",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_072",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0060.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_073",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "61"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0061_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_073",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_073",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_073",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0061.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_074",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "62"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0062_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_074",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_074",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_074",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0062.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_075",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "63"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0063_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_075",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_075",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_075",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0063.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_076",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "64"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0064_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_076",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_076",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_076",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0064.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_077",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "65"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0065_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_077",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_077",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_077",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0065.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_078",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "66"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0066_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_078",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_078",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_078",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0066.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_079",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "67"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0067_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_079",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_079",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_079",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0067.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_080",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "68"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0068_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_080",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_080",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_080",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0068.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_081",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "69"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0069_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_081",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_081",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_081",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0069.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_082",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "70"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0070_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_082",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_082",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_082",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0070.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_083",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "71"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0071_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_083",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_083",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_083",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0071.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_084",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "72"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0072_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_084",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_084",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_084",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0072.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_085",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "73"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0073_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_085",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_085",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_085",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0073.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_086",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "74"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0074_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_086",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_086",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_086",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0074.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_087",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "75"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0075_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_087",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_087",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_087",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0075.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_088",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "76"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0076_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_088",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_088",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_088",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0076.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_089",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "77"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0077_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_089",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_089",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_089",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0077.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_090",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "78"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0078_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_090",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_090",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_090",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0078.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_091",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "79"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0079_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_091",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_091",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_091",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0079.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_092",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "80"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0080_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_092",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_092",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_092",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0080.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_093",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "81"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0081_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_093",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_093",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_093",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0081.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_094",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "82"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0082_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_094",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_094",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_094",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0082.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_095",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "83"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0083_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_095",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_095",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_095",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0083.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_096",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "84"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0084_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_096",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_096",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_096",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0084.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_097",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "85"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0085_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_097",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_097",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_097",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0085.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_098",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "86"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0086_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_098",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_098",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_098",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0086.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_099",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "87"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0087_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_099",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_099",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_099",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0087.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_100",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "88"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0088_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_100",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_100",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_100",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0088.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_101",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "89"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0089_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_101",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_101",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_101",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0089.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_102",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "90"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0090_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_102",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_102",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_102",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0090.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_103",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "91"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0091_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_103",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_103",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_103",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0091.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_104",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "92"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0092_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_104",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_104",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_104",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0092.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_105",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "93"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0093_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_105",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_105",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_105",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0093.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_106",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "94"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0094_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_106",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_106",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_106",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0094.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_107",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "95"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0095_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_107",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_107",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_107",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0095.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_108",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "96"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0096_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_108",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_108",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_108",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0096.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_109",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "97"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0097_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_109",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_109",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_109",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0097.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_110",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "98"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0098_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_110",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_110",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_110",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0098.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_111",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "99"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0099_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_111",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_111",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_111",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0099.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_112",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "100"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0100_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_112",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_112",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_112",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0100.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_113",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "101"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0101_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_113",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_113",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_113",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0101.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_114",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "102"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0102_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_114",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_114",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_114",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0102.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_115",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "103"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0103_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_115",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_115",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_115",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0103.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_116",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "104"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0104_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_116",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_116",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_116",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0104.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_117",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "105"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0105_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_117",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_117",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_117",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0105.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_118",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "106"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0106_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_118",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_118",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_118",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0106.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_119",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "107"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0107_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_119",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_119",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_119",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0107.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_120",
+      "type": "Canvas",
+      "height": 1513,
+      "width": 1000,
+      "label": {
+        "en": [
+          "108"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "/test-collection/objects/thumbs/ms0581b001f001i0108_th.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_120",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/testcollection_120",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_120",
+              "body": {
+                "id": "/test-collection/objects/ms0581b001f001i0108.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1513,
+                "width": 1000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
