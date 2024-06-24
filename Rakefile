@@ -79,12 +79,12 @@ end
 ###############################################################################
 
 desc 'Generate derivative image files from collection objects'
-task :generate_derivatives, [:thumbs_size, :small_size, :density, :missing, :compress_originals] do |_t, args|
+task :generate_derivatives, [:thumbs_size, :small_size, :access_size, :density, :missing, :compress_originals] do |_t, args|
   # set default arguments
-  # default image size is based on max pixel width they will appear in the base template features
   args.with_defaults(
     thumbs_size: '450x',
     small_size: '800x800',
+    access_size: '1000x',
     density: '300',
     missing: 'true',
     compress_originals: 'false'
@@ -94,9 +94,10 @@ task :generate_derivatives, [:thumbs_size, :small_size, :density, :missing, :com
   objects_dir = 'objects'
   thumb_image_dir = 'objects/thumbs'
   small_image_dir = 'objects/small'
+  access_image_dir = 'objects/access'
 
   # Ensure that the output directories exist.
-  [thumb_image_dir, small_image_dir].each do |dir|
+  [thumb_image_dir, small_image_dir, access_image_dir].each do |dir|
     FileUtils.mkdir_p(dir) unless Dir.exist?(dir)
   end
 
@@ -156,7 +157,16 @@ task :generate_derivatives, [:thumbs_size, :small_size, :density, :missing, :com
       else
         puts "Skipping: #{small_filename} already exists"
       end
-      csv << ["#{File.basename(filename)}", "/#{filename}", "/#{small_filename}", "/#{thumb_filename}"]
+
+      # Generate the access image.
+      access_filename = File.join([access_image_dir, "#{base_filename}_ac.jpg"])
+      if (args.missing == 'false') || !File.exist?(access_filename)
+        process_and_optimize_image(filename, file_type, access_filename, args.access_size, args.density)
+      else
+        puts "Skipping: #{access_filename} already exists"
+      end
+
+      csv << ["#{File.basename(filename)}", "/#{filename}", "/#{access_filename}", "/#{small_filename}", "/#{thumb_filename}"]
     end
   end
   puts "\e[32mSee '#{list_name}' for list of objects and derivatives created.\e[0m"
@@ -206,65 +216,85 @@ task :generate_manifests do
     # Define manifest structure
     manifest = {
       "@context": "http://iiif.io/api/presentation/3/context.json",
-      "@id": "#{base_url}/iiif/#{parent_row['objectid']}/manifest.json",
-      "@type": "sc:Manifest",
+      "id": "#{base_url}/iiif/#{parent_row['objectid']}/manifest.json",
+      "type": "Manifest",
       "label": {
         "en": [parent_row['title']]
       },
-      "attribution": parent_row['contributing_institution'],
-      "logo": "#{base_url}/assets/img/collectionbuilder-logo.png",
-      "sequences": [
+      # "attribution": parent_row['contributing_institution'],
+      # "logo": "#{base_url}/assets/img/collectionbuilder-logo.png",
+      "thumbnail": [
         {
-          "@type": "sc:Sequence",
-          "canvases": []
+          "id": "#{base_url}#{parent_row['image_thumb']}",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
         }
-      ]
+      ],
+      "items": []
     }
 
     # Add children as items if any, otherwise add self
-    items = children.any? ? children : [parent_row]
-    items.each do |row|
+    objects = children.any? ? children : [parent_row]
+    objects.each do |row|
       next unless row['object_location'] # Skip if no object_location
-      canvas = {
-        "@type": "sc:Canvas",
-        "id": "#{base_url}/iiif/#{parent_row['objectid']}/manifest.json",
-        "label": row['title'],
+      items = {
+        "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/#{row['objectid']}",
+        "type": "Canvas",
+        "height": 1513,
+        "width": 1000,
+        "label": {
+          "en": [
+            row['title']
+          ]
+        },
         "thumbnail": [
           {
             "id": "#{base_url}#{row['image_thumb']}",
             "type": "Image",
             "format": "image/jpeg",
-            "width": 450,
-            "height": 450
+            "height": 681,
+            "width": 450
           }
         ],
-        "images": [
+        "items": [
           {
-            "@type": "oa:Annotation",
-            "motivation": "sc:painting",
-            "on": "#{base_url}/iiif/#{parent_row['objectid']}/manifest.json",
-            "resource": {
-              "@type": "dctypes:Image",
-              "@id": "#{base_url}#{row['image_access']}"
-            }
+            "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/#{row['objectid']}",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/#{row['objectid']}",
+                "type": "Annotation",
+                "motivation": "painting",
+                "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/#{row['objectid']}",
+                "body": {
+                  "id":  "#{base_url}#{row['image_access']}",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 1513,
+                  "width": 1000
+                }
+              }
+            ]
           }
         ]
       }
       # Add rendering section if object_ocr is present
-      if row['object_ocr'] && !row['object_ocr'].strip.empty?
-        rendering_section = {
-          "rendering": [
-            {
-              "@id": row['object_ocr'],
-              "format": "text/plain",
-              "label": "Raw OCR Data"
-            }
-          ]
-        }
-        canvas.merge!(rendering_section)
-      end
-      # Add canvas to the sequence array
-      manifest[:sequences][0][:canvases] << canvas
+      # if row['object_ocr'] && !row['object_ocr'].strip.empty?
+        # rendering_section = {
+          # "rendering": [
+            # {
+              # "@id": row['object_ocr'],
+              # "format": "text/plain",
+              # "label": "Raw OCR Data"
+            # }
+          # ]
+        # }
+        # items.merge!(rendering_section)
+      # end
+      # Add items to the sequence array
+      manifest[:items] << items
     end
 
     # Save manifest in the object's subdirectory
