@@ -1,0 +1,103 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327",
+    "type": "Manifest",
+    "label": {
+      "en": [
+        "Jack Trice \"Last Letter,\" October 5, 1923"
+      ]
+    },
+    "thumbnail": [
+      {
+        "id": "/objects/thumbs/21-07-023_trice_01-08-01-01_th.jpg",
+        "type": "Image",
+        "format": "image/jpeg",
+        "height": 681,
+        "width": 450
+      }
+    ],
+    "items": [
+      {
+        "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/42639f80-cdd0-4105-8884-69e903d0ad1b",
+        "type": "Canvas",
+        "height": 1513,
+        "width": 1000,
+        "label": {
+          "en": [
+            "Front"
+          ]
+        },
+        "thumbnail": [
+          {
+            "id": "/objects/thumbs/21-07-023_trice_01-08-01-01_th.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 681,
+            "width": 450
+          }
+        ],
+        "items": [
+          {
+            "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/42639f80-cdd0-4105-8884-69e903d0ad1b/annotation-page/aa05ec6e-00d8-4f88-b757-a1eb17dc70a3",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/8fd7190a-e507-411a-b2ff-bdfaf0394f8e",
+                "type": "Annotation",
+                "motivation": "painting",
+                "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/42639f80-cdd0-4105-8884-69e903d0ad1b",
+                "body": {
+                  "id": "/objects/access/21-07-023_trice_01-08-01-01_ac.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 1513,
+                  "width": 1000
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/b4c69e7c-fce5-4ae6-8064-98ef6dce622e",
+        "type": "Canvas",
+        "height": 1513,
+        "width": 1000,
+        "label": {
+          "en": [
+            "Back"
+          ]
+        },
+        "thumbnail": [
+          {
+            "id": "/objects/thumbs/21-07-023_trice_01-08-01-02_th.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 681,
+            "width": 450
+          }
+        ],
+        "items": [
+          {
+            "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/b4c69e7c-fce5-4ae6-8064-98ef6dce622e/annotation-page/5a398442-7160-49de-a21a-4429ed4549e6",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/05e7df4a-baf5-46bc-b766-1251c144fac5",
+                "type": "Annotation",
+                "motivation": "painting",
+                "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/b4c69e7c-fce5-4ae6-8064-98ef6dce622e",
+                "body": {
+                  "id": "/objects/access/21-07-023_trice_01-08-01-02_ac.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 1513,
+                  "width": 1000
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
