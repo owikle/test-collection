@@ -1,0 +1,27 @@
+---
+# basic layout for PDF documents
+# Displays image_small if available, with fall back to image_thumb, or a pdf icon.
+layout: item/item-page-base
+---
+
+<div class="card mb-4 text-center">
+    <div class="card-body">
+        <div class="row d-flex align-items-center">
+            <div class="col-md-10">
+                <p>
+                    {% include item/item-thumb.html %}
+                </p>
+            </div>
+            <div class="col-md-2">
+                {% include item/book-modal.html viewer="mirador" %}
+            </div>
+        </div>
+
+        <div class="mt-2">
+
+            {% include item/download-buttons.html %}
+
+        </div>
+
+    </div>
+</div>
