@@ -12,14 +12,12 @@
 
 {%- endcomment -%}
 <!-- Button trigger modal -->
-<div class="text-center mb-3">
-    <button type="button" class="btn btn-{{ include.color | default: 'primary' }}" data-bs-toggle="modal" data-bs-target="#{{ page.objectid | slugify }}Modal">Book View
-        <br>
-        <svg class="bi icon-sprite pt-2" role="img" aria-label="Open Book" style="width: 50px; height: 50px;">
-            <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-book"/>
-        </svg>
-    </button>
-</div>
+<button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#{{ page.objectid | slugify }}Modal"> 
+    <svg class="bi icon-sprite" role="img" aria-label="View">
+        <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-view"/>
+    </svg>
+    View Full Screen
+</button>
 <!-- Modal -->
 <div class="modal fade" id="{{ page.objectid | slugify }}Modal" tabindex="-1" role="dialog" aria-labelledby="{{ page.objectid | slugify }}ModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-fullscreen" role="document">
@@ -29,12 +27,16 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body" >
-            {% if include.viewer == "uv" %}
-                {% include item/iiif-manifest-universal-viewer.html %}
-            {% elsif include.viewer == "mirador" %}
-                {% include item/iiif-manifest-mirador.html %}
-            {% endif %}
+                <div class="visually-hidden">{{ page.title }}</div>
+                {% if include.viewer == "uv" %}
+                    {% include item/iiif-manifest-universal-viewer.html %}
+                {% elsif include.viewer == "mirador" %}
+                    {% include item/iiif-manifest-mirador.html %}
+                {% endif %}
             </div>
+            <!--<div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>-->
         </div>
     </div>
 </div>

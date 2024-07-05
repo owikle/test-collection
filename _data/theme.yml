@@ -118,3 +118,4 @@ icons:
   icon-default: file-earmark # fall back icon
   icon-back-to-top: arrow-up-square
   icon-book: book
+  icon-view: eye
