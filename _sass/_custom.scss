@@ -3,28 +3,6 @@
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
 
-/*
-.modal-dialog.modal-custom {
-    max-width: 90vw;
-    height: 90vh !important;
-    margin: auto;
-}
-*/
-
-.modal-content {
-    height: 100%;
-    border: none;
-    border-radius: 0;
-}
-
-.modal-body {
-    overflow-y: auto;
-}
-
-.modal-body #mirador {
-    height: 100% !important;
-}
-
-.modal-body #uv {
-    height: 100% !important;
+.thumb .wrap {
+    height: 115px !important;
 }
