@@ -1,3 +1,5 @@
+<https://docs.universalviewer.io/types/_internal_.Options.html>
+
 Options:
 
     bookPagingEnabled: Enable or disable paging in book view.
@@ -5,8 +7,6 @@ Options:
     canvasIndex: Set the starting canvas (page) index.
     uvOpenDialog: Automatically open a specified dialog on load.
     thumbsEnabled: Enable or disable the thumbnail strip.
-
-<https://docs.universalviewer.io/types/_internal_.Options.html>
 
 Modules:
 
