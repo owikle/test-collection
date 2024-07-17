@@ -18,6 +18,78 @@
             // add options here!
         };
         var iiif_viewer = UV.init("uv", uvOptions);
+        iiif_viewer.on("configure", function ({ config, cb }) {
+            cb({
+                options: {
+                    pagingOptionEnabled: true
+                    /*dropEnabled: false,
+                    footerPanelEnabled: true,
+                    headerPanelEnabled: true,
+                    hideAttributionPanel: true,
+                    // leftPanelEnabled: false,
+                    // rightPanelEnabled: false,
+                    limitLocales: false,
+                    overrideFullScreen: false,
+                    pagingEnabled: false,
+                    pagingOptionEnabled: true,
+                    limitToRange: true,
+                    manifestExclude: true,*/
+                },
+                modules: {
+                    footerPanel: {
+                        options: {
+                            fullscreenEnabled: true,
+                            downloadEnabled: false,
+                            shareEnabled: false
+                        },
+                    },
+                    headerPanel: {
+                        options: {
+                            centerOptionsEnabled: false,
+                            localeToggleEnabled: false,
+                            centerOptionsEnabled: false
+                        },
+                    }
+                    /*pagingHeaderPanel: {
+                        options: {
+                            modeOptionsEnabled: true,
+                            pageModeEnabled: true,
+                            pagingToggleEnabled: true,
+                            imageSelectionBoxEnabled: true
+                        },
+                    },
+                    searchFooterPanel: {
+                        options: {
+                            pageModeEnabled: true,
+                        },
+                    },
+                    footerPanel: {
+                        options: {
+                            fullscreenEnabled: false,
+                            downloadEnabled: false,
+                            shareEnabled: false
+                        },
+                    },
+                    headerPanel: {
+                        options: {
+                            centerOptionsEnabled: false,
+                            localeToggleEnabled: false,
+                            centerOptionsEnabled: false
+                        },
+                    },
+                    moreInfoRightPanel: {
+                        options: {
+                            limitToRange: true,
+                        },
+                    },
+                    contentLeftPanel: {
+                        options: {
+                            defaultToTreeEnabled: true,
+                        },
+                    },*/
+                },
+            });
+        });
     }
     initializeUniversalViewer();
 </script>
