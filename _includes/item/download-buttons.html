@@ -9,9 +9,9 @@
 
 {%- endcomment -%}
 <div class="btn-group" role="group" aria-label="Item options">
-    {% if page.display_template == "book-mirador" %}
+    {% if page.display_template contains "mirador" %}
         {% include item/book-modal.html viewer="mirador" %}
-    {% elsif page.display_template == "book-uv" %}
+    {% elsif page.display_template contains "uv" %}
         {% include item/book-modal.html viewer="uv" %}
     {% endif %}
     {% if page.object_transcript %}<button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTranscript" aria-expanded="false" aria-controls="collapseExample">View Transcript</button>{% endif %}

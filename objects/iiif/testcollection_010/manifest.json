@@ -47,7 +47,7 @@
               "motivation": "painting",
               "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/testcollection_010",
               "body": {
-                "id": "/test-collection/objects/access/0243_lippisch_cdoversized_14_ac.jpg",
+                "id": "/test-collection/objects/0243_lippisch_cdoversized_14.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1513,
